@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 941, y: 492}
   m_MaxSize: {x: 28006, y: 14042}
   vertical: 0
-  controlID: 97
+  controlID: 98
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 463, y: 492}
   m_MaxSize: {x: 20003, y: 14042}
   vertical: 1
-  controlID: 16
+  controlID: 122
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_MinSize: {x: 463, y: 271}
   m_MaxSize: {x: 20003, y: 10021}
   vertical: 0
-  controlID: 110
+  controlID: 58
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,11 +369,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1089
-      height: 545
+      height: 566
     m_Scale: {x: 0.47763157, y: 0.47763157}
-    m_Translation: {x: 544.5, y: 272.5}
+    m_Translation: {x: 544.5, y: 283}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -381,9 +381,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -1140
-      y: -570.52344
+      y: -592.5069
       width: 2280
-      height: 1141.0469
+      height: 1185.0138
     m_MinimalGUI: 1
   m_defaultScale: 0.47763157
   m_LastWindowPixelSize: {x: 1089, y: 566}
@@ -428,9 +428,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -130.00098, y: -13.8112545, z: 62.760353}
+    m_Target: {x: 0.035898894, y: 1.0991795, z: -0.31875002}
     speed: 2
-    m_Value: {x: -130.00098, y: -13.8112545, z: 62.760353}
+    m_Value: {x: 0.035896678, y: 1.0991743, z: -0.3187422}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -477,13 +477,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.04357169, y: 0.5270688, z: -0.027061408, w: -0.8483371}
+    m_Target: {x: -0.24651355, y: 0.38172847, z: -0.106389716, w: -0.88447994}
     speed: 2
-    m_Value: {x: -0.044841643, y: 0.52699906, z: -0.027850598, w: -0.84822494}
+    m_Value: {x: -0.24634026, y: 0.3830339, z: -0.10675355, w: -0.8838582}
   m_Size:
-    m_Target: 77.15721
+    m_Target: 4.3947387
     speed: 2
-    m_Value: 77.15721
+    m_Value: 4.394759
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -546,22 +546,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs/Enemies
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs/Enemies
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Rokoko\Documents\Summer School
+  m_LastProjectPath: C:\Users\Rokoko\Documents\GitHub\wordplay\Summer School
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a4850000
-    m_LastClickedID: 34212
-    m_ExpandedIDs: 00000000ac670000
+    m_SelectedIDs: c2880000
+    m_LastClickedID: 35010
+    m_ExpandedIDs: 00000000c2590000ae5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -589,7 +589,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000c2590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -716,14 +716,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Rokoko\Documents\Summer School
+  m_LastProjectPath: C:\Users\Rokoko\Documents\GitHub\wordplay\Summer School
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ac670000
-    m_LastClickedID: 26540
-    m_ExpandedIDs: 00000000ac670000
+    m_SelectedIDs: c2590000
+    m_LastClickedID: 22978
+    m_ExpandedIDs: 00000000c2590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -751,7 +751,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000c2590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -837,18 +837,18 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e671fdffea71fdfff071fdfff471fdff5876fdff5c76fdff9c7dfdff9e7dfdfff4b6fdffd8c3fdff6ad6fdff4eeffdff56effdffaefafdff6c08feff2c17fefffe58feffc6dcfeff4efbffff
+      m_ExpandedIDs: f2d6fffffae1ffff56fbffff8e5100002c6c00004e6f0000568b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 1 Door West , 1 Door East
-        m_OriginalName: 1 Door West , 1 Door East
+        m_Name: Cylinder
+        m_OriginalName: Cylinder
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -162470
+        m_UserData: 28948
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
