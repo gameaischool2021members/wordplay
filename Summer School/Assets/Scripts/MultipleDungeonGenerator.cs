@@ -29,7 +29,7 @@ public class MultipleDungeonGenerator : MonoBehaviour
             string path = Application.dataPath + "/Dungeons";
 
             StreamWriter writer = new StreamWriter(path + "/" + i + ".txt", true);
-            Debug.Log(JsonUtility.ToJson(template.dungeon));
+            Debug.Log("Dungeon " + i + " " + JsonUtility.ToJson(template.dungeon));
             writer.Write(JsonUtility.ToJson(template.dungeon));
             writer.Close();
 

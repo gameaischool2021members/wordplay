@@ -17,7 +17,7 @@ public class RoomSpawner : MonoBehaviour
     {
         Destroy(gameObject, 4);
         templates = GameObject.FindGameObjectWithTag("rooms").GetComponent<RoomTemplates>();
-        Invoke("Spawn", 0.05f);
+        Invoke("Spawn", 0.1f);
     }
 
     void Spawn()
@@ -63,5 +63,9 @@ public class RoomSpawner : MonoBehaviour
             }
             spawned = true;
         }
+    }
+    private void OnDestroy()
+    {
+        spawned = true;
     }
 }

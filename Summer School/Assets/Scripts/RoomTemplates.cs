@@ -13,7 +13,7 @@ public class RoomTemplates : MonoBehaviour
     public List<GameObject> rooms;
     public DungeonRepresentation dungeon;
 
-    private void Awake() => StartCoroutine(ExecuteAfter(0.75f));
+    private void Awake() => StartCoroutine(ExecuteAfter(1.75f));
 
     private IEnumerator ExecuteAfter(float secs)
     {

@@ -9,5 +9,4 @@ public class RoomBehaviour : MonoBehaviour
     [SerializeField] GameObject southWall;
     [SerializeField] GameObject westWall;
     [SerializeField] public List<bool> hasDoor;
-
 }
