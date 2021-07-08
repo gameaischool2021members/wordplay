@@ -23,7 +23,7 @@ public class MultipleDungeonGenerator : MonoBehaviour
             // create the template.
             RoomTemplates template = Instantiate(templatePrefab, Vector3.zero, Quaternion.identity).GetComponent<RoomTemplates>();
             // wait for 2.5 seconds
-            yield return new WaitForSeconds(0.9f);
+            yield return new WaitForSeconds(1.9f);
 
             // Write to disk
             string path = Application.dataPath + "/Dungeons";
