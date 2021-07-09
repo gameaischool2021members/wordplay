@@ -31,7 +31,7 @@ public class GenericDungeonRoom : MonoBehaviour
             //Vector3 enemyPosition = new Vector3(Random.Range(-0.4f, 0.4f), 0, Random.Range(-0.4f, 0.4f));
             enemyPosition = enemyPosition + transform.position;
             enemyPosition.y = enemy.transform.position.y;
-            Instantiate(enemy, enemyPosition, Quaternion.identity).transform.SetParent(transform);
+            Instantiate(enemy, enemyPosition, enemy.transform.rotation).transform.SetParent(transform);
         }
 
     }

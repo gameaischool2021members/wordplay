@@ -20,7 +20,7 @@ public class DungeonCreator : MonoBehaviour
             IntVector2 pos = dungeon.coordinates[i];
             Vector3 newPosition = new Vector3(pos.x, -0.05f, pos.z);
             GenericDungeonRoom room = Instantiate(prefab, newPosition, Quaternion.identity, transform).GetComponent<GenericDungeonRoom>();
-            room.InitializeRoom(dungeon.doors[i].ToArray(), pos, dungeon.room_difficulty[i]);
+            room.InitializeRoom(dungeon.doors[i].ToArray(), pos, i == 0 ? 0 : dungeon.room_difficulty[i]);
             rooms.Add(room);
         }
         //Find neighbours
