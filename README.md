@@ -1,4 +1,4 @@
-# wordplay
+# WordPlay
 
 We created a random map generator that created over 55 thousand random layouts. These layouts was then feeded into a NN to make semantic annotations. We are going to create dungeons out of natural language by asking the NN to create dungeons with specific room nubers and/or differnt difficulty levels.
 
