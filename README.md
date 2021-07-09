@@ -4,6 +4,8 @@ We created a random map generator that created over 55 thousand random layouts. 
 
 We also added some gameplay mechanics, simple enemy behaviours and some 3D asstes in order to use those generated maps in a mini dungeon crawler game.
 
+We are using GPT-Neo-125M, an open source, pretrained language model provided by EleutherAI (https://www.eleuther.ai/), which can be accessed through Huggingface (https://huggingface.co/EleutherAI/gpt-neo-125M)
+
 This app allows the use of natural language prompts to generate maps for a 2d dungeon crawler, using a variety of semantic information:
 - structure: "A map with a high number of rooms", "A map with twelve total rooms"
 - difficulty: "A low difficulty map"
@@ -20,8 +22,13 @@ The range and scales used for semantic annotation are the following, but natural
 - Christos Davillas
 - Vladimir Skabelkin
 
+**Video demo**
 
 https://youtu.be/oGKGyljG-Oc
+
+https://drive.google.com/file/d/1skiKIdDTO5mGZDkYgW5Tl7jSncuptFvw/view?usp=sharing
+
+**Generating Data Footage**
 
 https://user-images.githubusercontent.com/18182924/125065058-08234480-e0ba-11eb-80e5-f36e923d9a3e.mp4
 
