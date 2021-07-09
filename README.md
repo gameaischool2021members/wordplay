@@ -5,7 +5,7 @@ We also added some gameplay mechanics, simple enemy behaviours and some 3D asste
 
 
 **Team Members**
-Theodoros Galanos
-Konstantinos Banakakis
-Christos Davillas
-Vladimir Skabelkin
+- Theodoros Galanos
+- Konstantinos Banakakis
+- Christos Davillas
+- Vladimir Skabelkin
