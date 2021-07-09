@@ -73,4 +73,14 @@ public class Doors
         s = hasDoor[2] ? 1 : 0;
         w = hasDoor[3] ? 1 : 0;
     }
+
+    public bool[] ToArray()
+    {
+        bool[] bools = new bool[4];
+        bools[0] = n == 1 ? true : false;
+        bools[1] = e == 1 ? true : false;
+        bools[2] = s == 1 ? true : false;
+        bools[3] = w == 1 ? true : false;
+        return bools;
+    }
 }

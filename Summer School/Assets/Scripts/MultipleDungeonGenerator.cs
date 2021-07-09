@@ -26,9 +26,9 @@ public class MultipleDungeonGenerator : MonoBehaviour
             yield return new WaitForSeconds(1.9f);
 
             // Write to disk
-            string path = Application.dataPath + "/Dungeons";
+            string path = Application.dataPath + "/Dungeons3";
 
-            StreamWriter writer = new StreamWriter(path + "/" + i + ".txt", true);
+            StreamWriter writer = new StreamWriter(path + "/KostasDesktop3_"+ i + ".txt", true);
             Debug.Log("Dungeon " + i + " " + JsonUtility.ToJson(template.dungeon));
             writer.Write(JsonUtility.ToJson(template.dungeon));
             writer.Close();

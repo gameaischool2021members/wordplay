@@ -322,6 +322,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/AddRoom.cs"
 "Assets/Scripts/DungeonRepresentation.cs"
+"Assets/Scripts/GameLogic/DungeonCreator.cs"
+"Assets/Scripts/GameLogic/GenericDungeonRoom.cs"
 "Assets/Scripts/JsonHelper.cs"
 "Assets/Scripts/MultipleDungeonGenerator.cs"
 "Assets/Scripts/RoomBehaviour.cs"

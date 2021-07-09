@@ -1495,7 +1495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   templatePrefab: {fileID: 8844603168196695340, guid: 8fed6e172e74a3d45a07b569406adf36, type: 3}
-  dungeons2Generate: 20
+  dungeons2Generate: 10000
 --- !u!1001 &1975763913722984690
 PrefabInstance:
   m_ObjectHideFlags: 0
