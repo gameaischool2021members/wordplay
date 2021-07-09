@@ -21,7 +21,7 @@ The range and scales used for semantic annotation are the following, but natural
 - Vladimir Skabelkin
 
 
-
+https://youtu.be/oGKGyljG-Oc
 
 https://user-images.githubusercontent.com/18182924/125065058-08234480-e0ba-11eb-80e5-f36e923d9a3e.mp4
 
